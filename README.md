@@ -40,4 +40,17 @@ A modern, responsive expense tracker built using **React 19**, **Bootstrap 5**, 
 ---
 
 ## 📁 Folder Structure
+src/ │ ├── components/ │ ├── ExpenseForm.jsx │ ├── ExpenseList.jsx │ └── Chart.jsx │ ├── utils/ │ └── formatDate.js │ ├── App.jsx └── index.js
 
+
+---
+
+## 📦 Installation
+
+```bash
+git clone https://github.com/yourusername/expense-tracker-react.git
+cd expense-tracker-react
+npm install
+npm run dev
+🙌 Author
+Made with ❤️ by Your Name
