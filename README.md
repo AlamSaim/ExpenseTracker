@@ -53,4 +53,4 @@ cd expense-tracker-react
 npm install
 npm run dev
 🙌 Author
-Made with ❤️ by Your Name
+Made with ❤️ by SAIM ALAM
