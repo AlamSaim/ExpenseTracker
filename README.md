@@ -56,7 +56,7 @@ npm run dev<br>
 
 ## 🙌 Author
 
-Made with ❤️ <br> by Saim Alam <br>
+Made with ❤️ by Saim Alam <br>
 https://saim-portfolio-nu.vercel.app/
 ---
 
