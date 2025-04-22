@@ -1,12 +1,43 @@
-# React + Vite
+# 💰 Expense Tracker App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern, responsive expense tracker built using **React 19**, **Bootstrap 5**, **React Hook Form**, **Recharts**, and **date-fns**. It allows users to manage income and expenses efficiently with real-time data visualization.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🔗 Live Demo
 
-## Expanding the ESLint configuration
+👉 [Click Here to View Live App](https://your-vercel-link.vercel.app)
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 🚀 Tech Stack
+
+- ⚛️ React 19
+- 🎨 Bootstrap 5.3
+- 📋 React Hook Form
+- 📈 Recharts
+- 🕒 date-fns
+
+---
+
+## 📸 Screenshots
+
+> *(Add screenshot if available)*
+
+---
+
+## ✨ Features
+
+- ✅ Add and delete income or expenses
+- ✅ Real-time chart updates using Recharts
+- ✅ Category-wise expense management
+- ✅ Form validation using React Hook Form
+- ✅ Auto-form reset on submit
+- ✅ Responsive UI using Bootstrap 5
+- ✅ Clean toast notifications (Optional: use react-toastify)
+- ✅ Date formatting via date-fns
+
+---
+
+## 📁 Folder Structure
+
