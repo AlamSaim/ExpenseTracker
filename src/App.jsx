@@ -2,6 +2,7 @@ import { useState, useEffect } from "react";
 import ExpenseList from "./components/ExpenseList";
 import ExpenseFilter from "./components/ExpenseFilter";
 import ExpenseForm from "./components/ExpenseForm";
+import ExpenseChart from "./components/ExpenseChart";
 
 function App() {
   // Step 1: Load data from localStorage
@@ -80,9 +81,20 @@ function App() {
 
   return (
     <>
-      <ExpenseForm addExpense={AddItem} />
-      <ExpenseFilter filterItem={filterItem} />
-      <ExpenseList items={filteredExpenses} deleteItem={deleteItem} />
+      <div className="container mt-4">
+        <div className="row">
+          <div className="col-md-6">
+            <ExpenseForm addExpense={AddItem} />
+          </div>
+
+          <div className="col-md-6">
+            <ExpenseChart data={filteredExpenses} />
+          </div>
+        </div>
+
+        <ExpenseFilter filterItem={filterItem} />
+        <ExpenseList items={filteredExpenses} deleteItem={deleteItem} />
+      </div>
     </>
   );
 }
