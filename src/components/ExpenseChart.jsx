@@ -1,4 +1,5 @@
 import React from "react";
+
 import {
   PieChart,
   Pie,
@@ -32,16 +33,25 @@ const ExpenseChart = ({ data }) => {
   }));
 
   return (
-    <div style={{ width: "100%", height: 300 }}>
-      <ResponsiveContainer>
+    <div
+      className="chart-container mb-5 my-5"
+      style={{ width: "100%", height: 382 }} // Adjusted height for the container
+    >
+      <h2 className="text-center mb-4">Expenses by Category</h2>
+      <ResponsiveContainer
+        className="rounded-lg p-4 shadow-lg bg-light"
+        width="100%"
+        height="100%"
+      >
         <PieChart>
           <Pie
             data={chartData}
             cx="50%"
             cy="50%"
-            outerRadius={100}
+            outerRadius={120}
             dataKey="value"
             label
+            labelLine={false}
           >
             {chartData.map((entry, index) => (
               <Cell
@@ -50,8 +60,28 @@ const ExpenseChart = ({ data }) => {
               />
             ))}
           </Pie>
-          <Tooltip />
-          <Legend />
+          <Tooltip
+            contentStyle={{
+              backgroundColor: "#333",
+              borderRadius: "8px",
+              padding: "10px",
+              color: "#fff",
+            }}
+            itemStyle={{
+              color: "#fff",
+            }}
+          />
+          <Legend
+            iconType="circle"
+            layout="vertical"
+            verticalAlign="top"
+            align="right"
+            wrapperStyle={{
+              fontSize: "14px",
+              marginTop: "10px",
+              color: "#444",
+            }}
+          />
         </PieChart>
       </ResponsiveContainer>
     </div>
