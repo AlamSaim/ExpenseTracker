@@ -64,13 +64,6 @@ npm run dev
 ## 🙌 Author
 
 Made with ❤️ by Saim Alam
-(https://yourportfolio.com)
-
----
 
 ## 📄 License
-
 This project is open source under the MIT License.
-This project was built as part of my React Frontend Developer portfolio.
-
-
