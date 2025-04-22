@@ -22,7 +22,8 @@ A modern, responsive expense tracker built using **React 19**, **Bootstrap 5**, 
 
 ## 📸 Screenshots
 
-> *(Add screenshot if available)*
+![Expense Tracker Screenshot](https://drive.google.com/uc?export=view&id=1paAsMXWKzga1WydkyC1VzRC25rJ4UcJH)
+
 
 ---
 
