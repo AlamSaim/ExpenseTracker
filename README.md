@@ -18,13 +18,6 @@ A modern, responsive expense tracker built using **React 19**, **Bootstrap 5**, 
 - 📈 Recharts
 - 🕒 date-fns
 
----
-
-## 📸 Screenshots
-<img src="https://drive.google.com/file/d/1paAsMXWKzga1WydkyC1VzRC25rJ4UcJH/view?usp=drive_link">
-
-
-
 
 ---
 
