@@ -43,14 +43,14 @@ A modern, responsive expense tracker built using **React 19**, **Bootstrap 5**, 
 src/ │ ├── components/ │ ├── ExpenseForm.jsx │ ├── ExpenseList.jsx │ └── Chart.jsx │ ├── utils/ │ └── formatDate.js │ ├── App.jsx └── index.js
 ## 🙌 Author
 
-Made with ❤️ by Saim Alam
+Made with ❤️ by Saim Alam <br>
 (https://yourportfolio.com)
 
 ---
 
 ## 📄 License
 
-This project is open source under the MIT License.
+This project is open source under the MIT License. <br>
 This project was built as part of my React Frontend Developer portfolio.
 
 
