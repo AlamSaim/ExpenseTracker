@@ -40,7 +40,15 @@ A modern, responsive expense tracker built using **React 19**, **Bootstrap 5**, 
 ---
 
 ## 📁 Folder Structure
-src/ │ ├── components/ │ ├── ExpenseForm.jsx │ ├── ExpenseList.jsx │ └── Chart.jsx │ ├── utils/ │ └── formatDate.js │ ├── App.jsx └── index.js
+src/ │ 
+├── components/ │ 
+├── ExpenseForm.jsx │ 
+├── ExpenseList.jsx │
+└── Chart.jsx │
+├── utils/ │ 
+└── formatDate.js │
+├── App.jsx 
+└── index.js
 
 
 ---
