@@ -1,4 +1,6 @@
 import { useState, useEffect } from "react";
+import Header from "./components/Header";
+import Footer from "./components/Footer";
 import ExpenseList from "./components/ExpenseList";
 import ExpenseFilter from "./components/ExpenseFilter";
 import ExpenseForm from "./components/ExpenseForm";
@@ -81,6 +83,7 @@ function App() {
 
   return (
     <>
+      <Header />
       <div className="container mt-4">
         <div className="row">
           <div className="col-md-6">
@@ -95,6 +98,7 @@ function App() {
         <ExpenseFilter filterItem={filterItem} />
         <ExpenseList items={filteredExpenses} deleteItem={deleteItem} />
       </div>
+      <Footer />
     </>
   );
 }

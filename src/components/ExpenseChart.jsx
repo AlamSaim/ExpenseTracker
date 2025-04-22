@@ -10,12 +10,11 @@ import {
 } from "recharts";
 
 const COLORS = [
-  "#FF6B6B", // coral red
-  "#FFD93D", // golden yellow
-  "#6BCB77", // mint green
-  "#4D96FF", // sky blue
-  "#FF922B", // tangerine
-  "#845EC2", // soft purple
+  "#FF7043", // Soft Coral
+  "#66BB6A", // Fresh Green
+  "#42A5F5", // Sky Blue
+  "#AB47BC", // Violet Purple
+  "#FF7043", // Tangerine Orange
 ];
 
 const ExpenseChart = ({ data }) => {
