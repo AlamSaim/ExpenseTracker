@@ -60,5 +60,17 @@ git clone https://github.com/yourusername/expense-tracker-react.git
 cd expense-tracker-react
 npm install
 npm run dev
-🙌 Author
-Made with ❤️ by SAIM ALAM
+
+## 🙌 Author
+
+Made with ❤️ by Saim Alam
+(https://yourportfolio.com)
+
+---
+
+## 📄 License
+
+This project is open source under the MIT License.
+This project was built as part of my React Frontend Developer portfolio.
+
+
