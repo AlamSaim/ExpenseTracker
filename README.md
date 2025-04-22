@@ -44,6 +44,16 @@ src/ │ ├── components/ │ ├── ExpenseForm.jsx │ ├── Expen
 
 ---
 
+## 📦 Installation
+
+
+git clone https://github.com/yourusername/expense-tracker-react.git
+cd expense-tracker-react
+npm install
+npm run dev
+
+---
+
 ## 🙌 Author
 
 Made with ❤️ by Saim Alam <br>
