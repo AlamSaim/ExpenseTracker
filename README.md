@@ -7,7 +7,7 @@ A modern, responsive expense tracker built using **React 19**, **Bootstrap 5**, 
 ## 🔗 Live Demo
 
 👉 [Click Here to View Live App] <br>
-(https://your-vercel-link.vercel.app)
+(https://expense-tracker-projw.vercel.app/)
 
 ---
 
